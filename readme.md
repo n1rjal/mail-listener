@@ -30,6 +30,19 @@ You can format the given information into a Markdown table like this:
 
 Please note that this image doesn't need any open ports to run and hence the docker image is without `EXPOSE`.
 
+## Development Usage
+
+```bash
+
+git clone https://github.com/n1rjal/mail-listener.git
+cd mail-listener
+
+## Setup environment variables
+pnpm install
+pnpm dev
+
+```
+
 ## Future Features
 
 1. Publish to SQS Queue
