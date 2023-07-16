@@ -73,7 +73,6 @@ mailListener.on("error", function (err: any) {
 
 mailListener.on("mail", function (mail: any) {
   // do something with the whole email as a single object
-  console.log("**********MAIL*******");
   const attachments = mail.attachments;
   const html = mail.html as string;
   const text = mail.text as string;
