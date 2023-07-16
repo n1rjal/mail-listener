@@ -18,7 +18,7 @@ You can format the given information into a Markdown table like this:
 
 Please note that this image doesn't need any open ports to run and hence the docker image is without `EXPOSE`.
 
-## Future Usage
+## Future Features
 
 1. Publish to SQS Queue
 2. Publish to RABBITMQ exchange
