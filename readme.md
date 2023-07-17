@@ -29,6 +29,13 @@ You can format the given information into a Markdown table like this:
 ## Docker usage
 
 Please note that this image doesn't need any open ports to run and hence the docker image is without `EXPOSE`.
+Open your favorite terminal and use the following
+
+```bash
+docker pull n1rjal/mail-listener .
+# make a suitable .env file and start firing
+docker run --env-file=.env --name mail-listener-local .
+```
 
 ## Development Usage
 
