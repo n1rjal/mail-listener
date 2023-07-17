@@ -1,6 +1,8 @@
 # Mail Listener
 
 Listens for new mail on your IMAP server and perform POST request to a webhook URL.
+Its like any mail client but can help your startup a lot through webhooks
+
 ![Mail listener workflow](./static/mail-listener.workflow.png)
 
 ## Environment variables needed:
